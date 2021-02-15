@@ -15,17 +15,12 @@ function About() {
                     </div>
                 <div className="aboutMeTitle2">Languages & Tools_</div>
                 <div className="aboutMe">
-                    <span className="aboutTools">javaScipt</span>
-                    <span className="aboutTools">javaScipt</span>
-                    <span className="aboutTools">javaScipt</span>
-                    <span className="aboutTools">javaScipt</span>
-                    <span className="aboutTools">javaScipt</span>
-                    <span className="aboutTools">javaScipt</span>
-                    <span className="aboutTools">javaScipt</span>
-                    <span className="aboutTools">javaScipt</span>
-                    <span className="aboutTools">javaScipt</span>
-                    <span className="aboutTools">javaScipt</span>
-                    <span className="aboutTools">javaScipt</span>
+                    <span className="aboutTools">HTML</span> <span>|</span>
+                    <span className="aboutTools">CSS</span> <span>|</span>
+                    <span className="aboutTools">JavaScript</span> <span>|</span>
+                    <span className="aboutTools">React.js</span> <span>|</span>
+                    <span className="aboutTools">Redux</span> <span>|</span>
+                    <span className="aboutTools">GraphQL</span>
                 </div>
             </div>
         </div>
