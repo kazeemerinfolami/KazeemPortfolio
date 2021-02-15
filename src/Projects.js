@@ -118,37 +118,37 @@ function Projects() {
                 <div className="row center">
 
                     <div className="card">
-                        <a href="https://github.com/kazeemerinfolami/dataVisualization" target="_blank" rel="noopener noreferrer">
+                        <a href="https://kind-agnesi-86dcc5.netlify.app/" target="_blank" rel="noopener noreferrer">
                             <img className="medium" src={p31} alt="product img" />
                         </a>
                     </div>
                     <div className="card">
-                        <a href="https://github.com/kazeemerinfolami/dataVisualization" target="_blank" rel="noopener noreferrer">
+                        <a href="https://kind-agnesi-86dcc5.netlify.app/" target="_blank" rel="noopener noreferrer">
                             <img className="medium" src={p32} alt="product img" />
                         </a>
                     </div>
                     <div className="card">
-                        <a href="https://github.com/kazeemerinfolami/dataVisualization" target="_blank" rel="noopener noreferrer">
+                        <a href="https://kind-agnesi-86dcc5.netlify.app/" target="_blank" rel="noopener noreferrer">
                             <img className="medium" src={p33} alt="product img" />
                         </a>
                     </div>
                     <div className="card">
-                        <a href="https://github.com/kazeemerinfolami/dataVisualization" target="_blank" rel="noopener noreferrer">
+                        <a href="https://kind-agnesi-86dcc5.netlify.app/" target="_blank" rel="noopener noreferrer">
                             <img className="medium" src={p34} alt="product img" />
                         </a>
                     </div>
                     <div className="card">
-                        <a href="https://github.com/kazeemerinfolami/dataVisualization" target="_blank" rel="noopener noreferrer">
+                        <a href="https://kind-agnesi-86dcc5.netlify.app/" target="_blank" rel="noopener noreferrer">
                             <img className="medium" src={p35} alt="product img" />
                         </a>
                     </div>
                     <div className="card">
-                        <a href="https://github.com/kazeemerinfolami/dataVisualization" target="_blank" rel="noopener noreferrer">
+                        <a href="https://kind-agnesi-86dcc5.netlify.app/" target="_blank" rel="noopener noreferrer">
                             <img className="medium" src={p36} alt="product img" />
                         </a>
                     </div>
                     <div className="card">
-                        <a href="https://github.com/kazeemerinfolami/dataVisualization" target="_blank" rel="noopener noreferrer">
+                        <a href="https://kind-agnesi-86dcc5.netlify.app/" target="_blank" rel="noopener noreferrer">
                             <img className="medium" src={p37} alt="product img" />
                         </a>
                     </div>
