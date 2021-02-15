@@ -1,6 +1,16 @@
+html{
+  height: 100%;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  background-image:url("../src/img/mitchell-luo-FWoq_ldWlNQ-unsplash.jpg");
+  background-color: black;
+   background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+  padding:0;
+  font-family: -apple-system, BlinkMacSystemFont, Garamond, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -11,3 +21,216 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: 'nameFONT';
+  src: local('nameFONT'), url(../src/fonts/SyneMono-Regular.ttf) format('truetype');
+}
+
+.nav{
+  padding-top: 20px;
+  color: rgb(161, 156, 156);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+header a{
+  padding: 1.5rem;
+  font-size: large;
+  font-weight: bold;
+  font-weight: bold;
+  font-size: 2vw;
+}
+.logoName{
+  background-color: rgba(255, 255, 0, 0.589);
+  padding:0 5px;
+  font-weight: bold;
+  font-size: 2vw;
+  color: rgb(53, 23, 23);
+  
+}
+a{
+  text-decoration: none;
+  color:rgb(161, 156, 156)
+}
+a:hover{
+  color: rgba(255, 255, 0, 0.589);
+}
+.nava{
+
+  font-family: nameFONT;
+  font-size:1.5vw;
+}
+.nava:hover{
+  color: rgba(255, 255, 0, 0.589);
+  font-weight: bold;
+  /* text-decoration: underline solid red */
+    /* border-bottom:3px solid rgb(35, 80, 35);
+    width: 50%;
+    padding-bottom: 4px; */
+}
+/* HOME */
+.timeContainer{
+  width: 50%;
+  margin-top: 1%;
+  margin-left: 3%;
+  text-align: left;
+  font-weight: 900;
+  color: rgb(184, 183, 183);
+}
+.time{
+  /* margin: 90px 5px; */
+  font-size: 1vw;
+}
+.countryName{
+  background-color: rgba(218, 218, 218, 0.589);
+  color: rgb(24, 80, 24);
+}
+.homeContainer{
+  margin-top: 200px;
+  margin-bottom: 0;
+  height: 100%;
+  width: 100%;
+ text-align: center;
+}
+.profImg{
+  border: .5rem solid rgba(99, 96, 96, 0.253);
+  border-radius: 50%;
+  width: 15%;
+}
+.name{
+  font-family: nameFONT;
+color: rgb(161, 156, 156);
+width: 100%;
+font-size: 4vw;
+  font-weight: bold;
+  text-align: center;
+}
+.jobTitle{
+  font-family: nameFONT;
+  color: rgb(161, 156, 156);
+font-size: 4vw;
+  font-weight: bold;
+  text-align: center;
+}
+.smileEmoji{
+  font-size: 1rem;
+}
+
+/* ABOUT */
+.aboutMeContainer{
+  margin-top: 200px;
+    height: 100%;
+  margin-right: 10%;
+  margin-left: 10%;
+  font-family: nameFONT;
+}
+.about{
+  background-color: rgba(255, 255, 0, 0.589);
+ font-weight: bold;
+   padding:0 5px;
+  color: rgb(53, 23, 23);
+}
+.aboutMeTitle{
+  color: rgb(184, 183, 183);
+  font-size: 2vw;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.aboutMeTitle2{
+  color: rgb(184, 183, 183);
+  font-size: 2vw;
+  font-weight: bolder;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.aboutMe{
+  color: rgb(184, 183, 183);
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+.aboutTools{
+  margin: 2px;
+}
+/* PROJECTS */
+.projectsContainer{
+
+ height: 100%;
+}
+.projTitleCard{
+color: rgb(184, 183, 183);
+margin: 30px 10px 0 30px;
+font-size: 1.8vw;
+  font-weight: bold;
+  font-family: nameFONT;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  margin: 25px 10px;
+}
+.card:hover{
+  box-shadow: 2px 4px 10px rgba(255, 255, 0, 0.267);
+  border-radius: 0.5rem;
+}
+row.center{
+  justify-content: center;
+}
+
+/* img{
+  border-radius: 0.5rem;
+  box-shadow: 2px 4px 10px rgba(255, 255, 0, 0.589);
+
+} */
+img.medium{
+  border-radius: 0.5rem;
+  box-shadow: 2px 4px 10px rgba(255, 255, 0, 0.589);
+  max-width: 10rem;
+  width: 100%;
+}
+
+/* CONTACT */
+.contactContainer{
+  width: 15%;
+ 
+color: rgb(184, 183, 183);
+/* margin: 30px; */
+font-size: 1.8vw;
+  font-weight: bold;
+  font-family: nameFONT;
+}
+.contact{
+  margin: 50px;
+  width: 100%;
+  color: rgb(184, 183, 183);
+  /* background-color:  rgba(255, 255, 0, 0.589); */
+}
+.contact:hover{
+  color: rgba(255, 255, 0, 0.589);
+  border-bottom: 3px solid rgb(35, 80, 35); 
+  background-color:  rgba(255, 255, 0, 0.068);
+   text-align: center;
+  /* width: 10%; */
+  padding-bottom: 0;
+  cursor: pointer;
+}
+.contactInfoContainer{
+   width: 100%;
+color: rgb(184, 183, 183);
+font-size: 1.8vw;
+  font-weight: bold;
+  font-family: nameFONT;
+}
+.contactinfo{
+  margin: 20px 13px 10px 13px;
+}
+/* .contact a:hover{
+  color: rgba(255, 136, 0, 0.589);
+} */
+/* a:hover{
+
+} */
