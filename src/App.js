@@ -19,7 +19,7 @@ function App() {
             <span className="logoName">Hi, i'm</span> <span className="name">Kazeem Bolaji Erinfolami </span>
           </div>
           <div>
-            <span className="jobTitle">Software Developer</span><span className="smileEmoji">🖥️</span>
+            <span className="jobTitle">Front-end Developer</span><span className="smileEmoji">🖥️</span>
           </div>
         </div>
       </div>
