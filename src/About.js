@@ -6,7 +6,7 @@ import CV from './components/CV';
 function About() {
     const props = useSpring({
         from: { opacity: 0, marginTop: -500 },
-        to: { opacity: 1, marginTop: 200 },
+        to: { opacity: 1, marginTop: 120 },
         config: { delay: 1000, duration: 2000 }
     })
     const text = useSpring({
