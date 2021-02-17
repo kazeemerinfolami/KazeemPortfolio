@@ -1,4 +1,5 @@
 import React from 'react'
+import { useSpring, animated } from 'react-spring'
 import Nav from './components/Nav'
 import p11 from "../src/img/projPic/p1.1.png"
 import p12 from "../src/img/projPic/p1.2.png"
@@ -20,16 +21,31 @@ import p37 from "../src/img/projPic/p3.7.png"
 import p41 from "../src/img/projPic/p4.1.png"
 import p42 from "../src/img/projPic/p4.2.png"
 function Projects() {
+    const props = useSpring({
+        from: { opacity: 0, marginTop: -500 },
+        to: { opacity: 1, marginTop: 30 },
+        config: { delay: 1000, duration: 2000 }
+    })
+    const text = useSpring({
+        from: { opacity: 0 },
+        to: { opacity: 1 },
+        config: { delay: 3000, duration: 6000 }
+    })
+    const content = useSpring({
+        from: { opacity: 0 },
+        to: { opacity: 1 },
+        config: { delay: 3000, duration: 5000 }
+    })
     return (
         <>
             <Nav />
             {/* CARD1 */}
-            <div className="projectsContainer">
+            <animated.div style={props} className="projectsContainer">
                 <div className="projTitleCard">
-                    <div className="ProjectTitle"><span>Project: </span>LMS "Learning Management System"</div>
+                    <animated.div style={text} className="ProjectTitle"><span>Project: </span>LMS "Learning Management System"</animated.div>
                     {/* <div className="ProjectTools"><span>Tools: </span> React.js</div> */}
                 </div>
-                <div className="row center">
+                <animated.div style={content} className="row center">
 
                     <div className="card">
                         <a href="http://iqstore.ivyarc.com/" target="_blank" rel="noopener noreferrer">
@@ -66,13 +82,13 @@ function Projects() {
                             <img className="medium" src={p17} alt="product img" />
                         </a>
                     </div>
-                </div>
+                </animated.div >
                 {/* CARD2 */}
                 <div className="projTitleCard">
-                    <div className="ProjectTitle"><span>Project: </span>"C.R.U.D" List of Federal Ministries in Nigeria</div>
+                    <animated.div style={text} className="ProjectTitle"><span>Project: </span>"C.R.U.D" List of Federal Ministries in Nigeria</animated.div>
                     {/* <div className="ProjectTools"><span>Tools: </span> React.js</div> */}
                 </div>
-                <div className="row center">
+                <animated.div style={content} className="row center">
 
                     <div className="card">
                         <a href="https://laughing-bose-fd441e.netlify.app/" target="_blank" rel="noopener noreferrer">
@@ -109,13 +125,13 @@ function Projects() {
                             <img className="medium" src={p22} alt="product img" />
                         </a>
                     </div> */}
-                </div>
+                </animated.div >
                 {/* CARD3 */}
                 <div className="projTitleCard">
-                    <div className="ProjectTitle"><span>Project: </span>Data Visualization Platform</div>
+                    <animated.div style={text} className="ProjectTitle"><span>Project: </span>Data Visualization Platform</animated.div>
                     {/* <div className="ProjectTools"><span>Tools: </span> React.js</div> */}
                 </div>
-                <div className="row center">
+                <animated.div style={content} className="row center">
 
                     <div className="card">
                         <a href="https://kind-agnesi-86dcc5.netlify.app/" target="_blank" rel="noopener noreferrer">
@@ -152,13 +168,13 @@ function Projects() {
                             <img className="medium" src={p37} alt="product img" />
                         </a>
                     </div>
-                </div>
+                </animated.div >
                 {/* CARD4 */}
                 <div className="projTitleCard">
-                    <div className="ProjectTitle"><span>Project: </span>Random User Profile Generator</div>
+                    <animated.div style={text} className="ProjectTitle"><span>Project: </span>Random User Profile Generator</animated.div>
                     {/* <div className="ProjectTools"><span>Tools: </span> React.js</div> */}
                 </div>
-                <div className="row center">
+                <animated.div style={content} className="row center">
 
                     <div className="card">
                         <a href="https://brave-beaver-b75543.netlify.app/" target="_blank" rel="noopener noreferrer">
@@ -195,8 +211,8 @@ function Projects() {
                             <img className="medium" src={p11} alt="product img" />
                         </a>
                     </div> */}
-                </div>
-            </div>
+                </animated.div >
+            </animated.div>
         </>
     )
 }
