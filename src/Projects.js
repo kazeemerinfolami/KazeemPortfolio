@@ -22,7 +22,7 @@ import p41 from "../src/img/projPic/p4.1.png"
 import p42 from "../src/img/projPic/p4.2.png"
 function Projects() {
     const props = useSpring({
-        from: { opacity: 0, marginTop: -500 },
+        from: { opacity: 0, marginTop: -1000 },
         to: { opacity: 1, marginTop: 30 },
         config: { delay: 1000, duration: 2000 }
     })
