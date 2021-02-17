@@ -1,6 +1,7 @@
 import React from 'react'
 import { useSpring, animated } from 'react-spring'
 import Nav from './components/Nav'
+import CV from './components/CV';
 
 function About() {
     const props = useSpring({
@@ -56,6 +57,7 @@ function About() {
     return (
         <div>
             <Nav />
+            <CV />
             <animated.div style={props} className="aboutMeContainer">
                 <div className="aboutMeTitle"><span className="about">About</span> Me_</div>
                 <animated.div style={text} className="aboutMe">
@@ -65,7 +67,7 @@ function About() {
                     hard worker and team player who is proficient in an array of scripting languages and multimedia Web tools
                     </animated.div>
                 <div className="aboutMeTitle2"><span style={{ backgroundColor: "rgb(53, 23, 23)", padding: "0 5px", color: "rgba(255, 255, 0, 0.589)" }}>Languages</span> & Tools_</div>
-                <div className="aboutMe">
+                <div className="aboutMe2">
                     <animated.span style={text1} className="aboutTools">HTML</animated.span> <span>|</span>
                     <animated.span style={text2} className="aboutTools">CSS</animated.span> <span>|</span>
                     <animated.span style={text3} className="aboutTools">JavaScript</animated.span> <span>|</span>

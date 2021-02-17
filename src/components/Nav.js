@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link, withRouter } from "react-router-dom"
+import MenuOutlinedIcon from '@material-ui/icons/MenuOutlined';
+import CloseOutlinedIcon from '@material-ui/icons/CloseOutlined';
+
 
 
 
 function Nav({ location, history }) {
+    const [clicked, setClicked] = useState(false)
+
     const isAuth = (path) => {
         if (location.pathname === path) {
             return {
@@ -13,13 +18,19 @@ function Nav({ location, history }) {
             return { color: "" }
         }
     }
-    console.log(history)
+    const handleClick = () => {
+        setClicked(!clicked)
+    }
     const nav = () => (
         <>
             <div>
                 <Link to="/" ><span className="logoName">Kazeem</span>Portfolio</Link>
             </div>
-            <div >
+            <div className="menu-icon" onClick={handleClick}>
+                {/* <Link className={clicked ? <MenuOutlinedIcon /> : <CloseOutlinedIcon/>} onClick={myFunction}><MenuOutlinedIcon /></Link> */}
+                <i className={clicked ? "fa fa-times" : "fas fa-bars"} ></i>
+            </div>
+            <div className={clicked ? "nav-menu active" : "nava"}>
                 <Link className="nava" style={isAuth("/")} to="/">Home</Link>
                 <Link className="nava" style={isAuth("/about")} to="/about">About</Link>
                 <Link className="nava" style={isAuth("/project")} to="/project">projects</Link>

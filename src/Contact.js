@@ -2,6 +2,7 @@ import React from 'react'
 import { useSpring, animated } from 'react-spring'
 
 import Nav from './components/Nav'
+import CV from './components/CV';
 
 function Contact() {
     const props = useSpring({
@@ -37,6 +38,7 @@ function Contact() {
     return (
         <>
             <Nav />
+            <CV />
             <div className="contactInfoContainer">
                 <div className="contactinfo">
                     <div >Kazeem Bolaji Erinfolami_</div>

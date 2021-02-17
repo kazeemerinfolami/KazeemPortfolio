@@ -10,6 +10,7 @@ body {
     height: 100%;
     width: 100%;
   padding:0;
+  font-size: 100%;
   font-family: -apple-system, BlinkMacSystemFont, Garamond, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -39,13 +40,14 @@ header a{
   font-size: large;
   font-weight: bold;
   font-weight: bold;
-  font-size: 2vw;
+  font-size: 100%;
 }
+
 .logoName{
   background-color: rgba(255, 255, 0, 0.589);
   padding:0 5px;
   font-weight: bold;
-  font-size: 2vw;
+  font-size: 100%;
   color: rgb(53, 23, 23);
   
 }
@@ -59,7 +61,7 @@ a:hover{
 .nava{
 
   font-family: nameFONT;
-  font-size:1.5vw;
+  font-size: 100%;
 }
 .nava:hover{
   color: rgba(255, 255, 0, 0.589);
@@ -71,7 +73,7 @@ a:hover{
 }
 /* HOME */
 .timeContainer{
-  width: 50%;
+  width: 80%;
   margin-top: 1%;
   margin-left: 3%;
   text-align: left;
@@ -79,15 +81,36 @@ a:hover{
   color: rgb(184, 183, 183);
 }
 .time{
+  width: 100%;
   /* margin: 90px 5px; */
-  font-size: 1vw;
+  font-size: 80%;
 }
 .countryName{
   background-color: rgba(218, 218, 218, 0.589);
   color: rgb(24, 80, 24);
 }
+.cvContainer{
+  width: 70%;
+  margin-top: 1%;
+  margin-left: 3%;
+  outline:none;
+}
+.downloadCV{
+background: linear-gradient(90deg, rgba(13,31,84,1) 0%, rgba(33,53,78,0.9009978991596639) 36%, rgba(33,37,51,0.676908263305322) 56%, rgba(23,25,68,0.6376925770308124) 67%);
+  border-radius: 50px;
+  outline:none;
+  border: none;
+  padding: 1rem 4rem;
+  font-weight: 900;
+  cursor: pointer;
+  color:rgb(161, 156, 156);
+}
+.downloadCV:hover{
+  box-shadow: 0px 0.5px 1px 0.5px   rgba(33,53,78,0.9009978991596639);
+  outline:none;
+}
 .homeContainer{
-  margin-top: 200px;
+  margin-top: 150px;
   margin-bottom: 0;
   height: 100%;
   width: 100%;
@@ -97,19 +120,35 @@ a:hover{
   border: .5rem solid rgba(99, 96, 96, 0.253);
   border-radius: 50%;
   width: 15%;
+  margin: 10px 0;
+}
+.devIntro{
+  background: linear-gradient(90deg, rgba(112,49,30,0.7021183473389356) 0%, rgba(33,53,78,0.9009978991596639) 37%, rgba(66,68,108,0) 60%);
+  padding:5px 10px;
+  font-weight: bold;
+  font-size: 100%;
+color:rgb(161, 156, 156);
+margin: 10px 0;
+border-radius: 20px;
 }
 .name{
   font-family: nameFONT;
 color: rgb(161, 156, 156);
 width: 100%;
-font-size: 4vw;
+font-size: 130%;
   font-weight: bold;
   text-align: center;
+}
+.name1{
+margin: 1rem;
+}
+.name1{
+  margin: 1rem;
 }
 .jobTitle{
   font-family: nameFONT;
   color: rgb(161, 156, 156);
-font-size: 4vw;
+font-size: 130%;
   font-weight: bold;
   text-align: center;
 }
@@ -133,25 +172,28 @@ font-size: 4vw;
 }
 .aboutMeTitle{
   color: rgb(184, 183, 183);
-  font-size: 2vw;
+  font-size: 110%;
   font-weight: bolder;
   margin-bottom: 20px;
 }
 .aboutMeTitle2{
   color: rgb(184, 183, 183);
-  font-size: 2vw;
+  font-size: 110%;
   font-weight: bolder;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 .aboutMe{
   color: rgb(184, 183, 183);
-  font-size: 1.5vw;
+  font-size: 100%;
   font-weight: bold;
+border-radius: 50px;
+background: linear-gradient(90deg, rgba(112,49,30,0.7021183473389356) 0%, rgba(33,53,78,0.9009978991596639) 37%, rgba(66,68,108,0) 60%);
+padding: 20px 30px;
 }
 .aboutMe2{
  color: rgb(184, 183, 183);
-  font-size: 1.5vw;
+  font-size: 100%;
   font-weight: bold;
 }
 .aboutTools{
@@ -160,13 +202,17 @@ font-size: 4vw;
 }
 /* PROJECTS */
 .projectsContainer{
-
+font-size: 120%;
  height: 100%;
 }
 .projTitleCard{
 color: rgb(184, 183, 183);
-margin: 30px 10px 0 30px;
-font-size: 1.8vw;
+margin: 30px 10px 0 20px;
+font-size: 80%;
+width: 40%;
+border-radius: 20px;
+background: linear-gradient(90deg, rgba(112,49,30,0.7021183473389356) 0%, rgba(33,53,78,0.9009978991596639) 37%, rgba(66,68,108,0) 60%);
+padding: 5px 10px;
   font-weight: bold;
   font-family: nameFONT;
 }
@@ -201,11 +247,11 @@ img.medium{
 
 /* CONTACT */
 .contactContainer{
-  width: 15%;
+  width: 17%;
  
 color: rgb(184, 183, 183);
 /* margin: 30px; */
-font-size: 1.8vw;
+font-size: 100%;
   font-weight: bold;
   font-family: nameFONT;
 }
@@ -217,9 +263,12 @@ font-size: 1.8vw;
 }
 .contact:hover{
   color: rgba(255, 255, 0, 0.589);
-  border-bottom: 3px solid rgb(35, 80, 35); 
-  background-color:  rgba(255, 255, 0, 0.068);
-   text-align: center;
+  background: linear-gradient(90deg, rgba(112,49,30,0.7021183473389356) 0%, rgba(33,53,78,0.9009978991596639) 37%, rgba(66,68,108,0) 60%);
+padding: 0 0 5px 30px;
+border-radius: 20px;
+  /* border-bottom: 3px solid rgb(35, 80, 35);  */
+  /* background-color:  rgba(255, 255, 0, 0.068); */
+   text-align: left;
   /* width: 10%; */
   padding-bottom: 0;
   cursor: pointer;
@@ -227,7 +276,7 @@ font-size: 1.8vw;
 .contactInfoContainer{
    width: 100%;
 color: rgb(184, 183, 183);
-font-size: 1.8vw;
+font-size: 120%;
   font-weight: bold;
   font-family: nameFONT;
 }
@@ -240,3 +289,14 @@ font-size: 1.8vw;
 /* a:hover{
 
 } */
+
+
+/* NAV */
+
+
+/* MEDIA QUERY */
+
+/* NAV */
+
+
+
