@@ -35,6 +35,7 @@ function Contact() {
         to: { opacity: 1, marginLeft: 50 },
         config: { delay: 1000, duration: 1500 }
     })
+
     return (
         <>
             <Nav />

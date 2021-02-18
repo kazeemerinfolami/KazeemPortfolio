@@ -6,8 +6,8 @@ import CV from './components/CV';
 function About() {
     const props = useSpring({
         from: { opacity: 0, marginTop: -500 },
-        to: { opacity: 1, marginTop: 120 },
-        config: { delay: 1000, duration: 2000 }
+        to: { opacity: 1, marginTop: 100 },
+        config: { delay: 1000, duration: 2000 },
     })
     const text = useSpring({
         from: { opacity: 0 },
@@ -66,7 +66,7 @@ function About() {
                     and efficient code using current best practices in Web development. Fast learner,
                     hard worker and team player who is proficient in an array of scripting languages and multimedia Web tools
                     </animated.div>
-                <div className="aboutMeTitle2"><span style={{ backgroundColor: "rgb(53, 23, 23)", padding: "0 5px", color: "rgba(255, 255, 0, 0.589)" }}>Languages</span> & Tools_</div>
+                <div className="aboutMeTitle2"><span className="about">Languages</span> & Tools_</div>
                 <div className="aboutMe2">
                     <animated.span style={text1} className="aboutTools">HTML</animated.span> <span>|</span>
                     <animated.span style={text2} className="aboutTools">CSS</animated.span> <span>|</span>

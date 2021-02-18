@@ -14,7 +14,7 @@ const DateTime = () => {
 
     return (
         <div className="timeContainer">
-            <span className="time"><span className="countryName">🇳🇬 NG</span> Time : <span style={{ color: "black", backgroundColor: "rgba(255, 255, 0, 0.589)" }}>{date.toLocaleTimeString()}</span> Date : <span style={{ color: "black", backgroundColor: "rgba(255, 255, 0, 0.589)" }}>{date.toLocaleDateString()}</span></span>
+            <span className="time"><span className="countryName">🇳🇬 NG</span> Time : <span style={{ color: "black", backgroundColor: "grey" }}>{date.toLocaleTimeString()}</span> Date : <span style={{ color: "black", backgroundColor: "grey" }}>{date.toLocaleDateString()}</span></span>
             {/* <span className="date"> </span> */}
 
         </div>

@@ -9,7 +9,7 @@ import profileImg from "../src/img/IMG_4234.jpg"
 function App() {
   const props = useSpring({
     from: { opacity: 0, marginTop: -500 },
-    to: { opacity: 1, marginTop: 150 },
+    to: { opacity: 1, marginTop: 100 },
     config: { delay: 1000, duration: 2000 }
   })
   const text = useSpring({
