@@ -2,14 +2,16 @@ html{
   height: 100%;
 }
 body {
-  margin: 0;
-  background-image:url("../src/img/matthew-brodeur-aW575siQEBE-unsplash.jpg");
-  /* background-color: black; */
-   background-repeat: no-repeat;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-  padding:0;
+  margin: 0 auto;
+  /* background-image:url("../src/img/matthew-brodeur-aW575siQEBE-unsplash.jpg"); */
+  background-color: #000000;
+   /* background-repeat: no-repeat;
+    background-position: center; */
+    /* height: 100%;
+    width: 100%; */
+  /* padding:0; */
+   filter: blur(0.5px);
+  -webkit-filter: blur(0.5px);
   font-size: 100%;
   font-family: -apple-system, BlinkMacSystemFont, Garamond, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -73,7 +75,7 @@ a:hover{
 }
 /* HOME */
 .timeContainer{
-  width: 80%;
+  width: 90%;
   margin-top: 1%;
   margin-left: 3%;
   text-align: left;

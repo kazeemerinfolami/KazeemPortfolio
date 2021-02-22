@@ -4,8 +4,8 @@ import { Link, withRouter } from "react-router-dom"
 
 const Nav = styled.nav`
 width: 100%;
-  padding: 0 10%;
-  min-height: 9vh;
+  padding: 0 5%;
+  // min-height: 9vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,6 +25,9 @@ const Logo = styled.h1`
 const Menu = styled.ul`
   list-style: none;
   display: flex;
+  color:green;
+  background: black;
+//  background-color: blue;
   li:nth-child(2) {
     margin: 0px 20px;
   }
@@ -72,9 +75,10 @@ const Line = styled.span`
 
 const Overlay = styled.div`
   position: absolute;
-  height: ${props => (props.open ? "50vh" : 0)};
-  width: 90%;
+  height: ${props => (props.open ? "100vh" : 0)};
+  width: 96%;
   background: black;
+  // background: red;
   backdropFilter: "blur(5px)";
   transition: height 0.4s ease-in-out;
 
@@ -86,16 +90,20 @@ const Overlay = styled.div`
 const OverlayMenu = styled.ul`
   list-style: none;
   margin-top: -30%;
+  text-align: center;
   position: absolute;
+  //  color:green;
+  //  background: black;
+//  background-color: blue;
   left: 50%;
-  top: 155%;
-  transform: translate(-53%, -150%);
+  top: 90%;
+  transform: translate(-50%, -20rem);
 
   li {
     opacity: ${props => (props.open ? 1 : 0)};
     font-size: 100%;
-    margin: 40px 0px;
-   
+    margin: 40px 10px;
+    padding: 5px 20px;
     transition: opacity 0.4s ease-in-out;
   }
 
