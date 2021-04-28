@@ -1,0 +1,297 @@
+
+@font-face {
+  font-family: 'nameFONT';
+  src: local('nameFONT'), url(../typography/Original_Surfer/OriginalSurfer-Regular.ttf) format('truetype');
+}
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  font-family: nameFONT !important;
+  color: #464545;
+}
+.navLink{
+    text-decoration: none !important;
+}
+nav div{
+    margin: 10px 0;
+    text-decoration: none !important;
+}
+.navLink:hover{
+    text-decoration: none !important;
+}
+.nav-wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+   color: #303030;
+    font-weight: 600;
+    font-size: large;
+}
+.nav-icon{
+    font-size: 30px !important;
+   margin: 0 5px;
+   color: #474747 !important;
+}
+.Welcome-container{
+    /* padding: 10px; */
+}
+.welcome-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 40vw;
+    align-items: center;
+
+}
+.welcomeIcon{
+    color: #616161;
+}
+.Dev-name{
+    width: 100%;
+    font-size: 2.2rem;
+    margin: 0;
+    font-weight: 500;
+}
+.Dev-role{
+    width: 100%;
+    font-size: 1.3rem;
+    margin: 0;
+    font-weight: 500;
+    text-shadow: 1px 1px 0px #4d4d4d;
+}
+.desktop-icon-wrapper{
+    display: flex;
+     align-items: center;
+     justify-content: flex-end;
+}
+.desktop-icon{
+ color: #61616159 !important;
+    font-size: 7rem;
+}
+
+
+
+/* ///////////////.....MAIN.....//////////////// */
+.active{
+    color: #3030308f !important;
+}
+.main-nav-wrapper {
+font-size: large;
+}
+/* .main-nav-wrapper:hover{
+text-decoration: none;
+} */
+.main-nav-Container nav{
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+flex-wrap: wrap;
+margin: 10px 0;
+}
+.main-nav-Container nav div{
+    margin: 0 5px;
+}
+.Home-icon{
+    font-size: 1.5rem;
+    color: rgba(65, 54, 40, 0.507);
+}
+
+
+
+/* ///////////////.....ABOUT ME PAGE.....//////////////// */
+
+.container{
+    /* /* min-height: 100vh; */
+    padding: 10px;
+}
+
+
+/* ///////////////.....ABOUT ME PAGE.....//////////////// */
+
+.Profile-img{
+    width: 45%;
+    border-radius: 50%;
+}
+.img-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20% 0 5% 0;
+}
+.card-wrapper{
+    padding: 10px;
+}
+.About-me-container{
+background: linear-gradient(152deg, rgba(1,1,1,0) 0%, rgba(25,231,227,1) 0%, rgba(40,200,205,0.7189250700280112) 17%, rgba(62,189,186,0.5088410364145659) 49%, rgba(150,150,150,0.27354691876750703) 74%);
+    min-height: 100vh;
+}
+.about-page-name{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.aboutme-content2-link{
+    display: flex;
+    justify-content: flex-end;
+}
+.aboutme-content2-link a{
+    margin: 0 5px;
+}
+.aboutme-content{
+    margin-top: 20%;
+}
+.aboutme-content-title{
+    font-weight: bolder;
+}
+
+.project-container{
+background: rgb(187, 187, 187);
+    min-height: 100vh;
+}
+.project-img-wrapper{
+    /* color: rgb(245, 245, 245); */
+}
+
+/* .Devicon{
+    font-size: 7rem;
+}
+.dev-icon-box{
+    background-color: red;
+} */
+
+
+
+/*.......... ABOUT ME PAGE .........*/
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  border-radius: 0.9rem;
+  margin: 25px 10px;
+  border-radius: 0.5rem !important;
+}
+.row.center{
+  justify-content: center;
+}
+img.medium{
+  max-width: 10rem;
+  width: 100%;
+  border-radius: 0.4rem !important;
+}
+
+
+/* .Contact-me-for-container{
+   margin-top: 25%;
+} */
+
+.contact-me-submit{
+    width: 70%;
+    padding: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    -moz-box-shadow:    2px 2px 10px 2px rgba(16, 120, 238, 0.418);
+  -webkit-box-shadow: 2px 2px 10px 2px rgba(16, 120, 238, 0.418);
+  box-shadow:         2px 2px 10px 2px rgba(16, 120, 238, 0.418);
+  margin: 10px 0;
+}
+.shield-icon{
+    font-size: 24px;
+}
+.email_note{
+    color: rgb(10, 179, 18);
+}
+.contact-me-iCons-container{
+margin: 40px 0;
+}
+
+.content-content2-link{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content-content2-link a{
+    margin: 0 10px;
+}
+.contact-me-icon2{
+    font-size: 3rem;
+}
+.Contact-kazeem-text{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    font-size: 18px;
+}
+
+.Con-Form-wrapper{
+    /* margin-top: 20%; */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.2);
+}
+.mouse-icon{
+    font-size: 24px;
+    margin: 0 10px;
+    color: brown !important;
+}
+
+
+
+/* ///////////////.....Mobile Sreen.....//////////////// */
+@media (max-width: 767px) {
+.main-nav-wrapper{
+color: #303030;
+font-weight: bolder;
+}
+.main-nav-Container nav{
+display: block;
+text-align: center;
+align-items: center;
+}
+.main-nav-Container nav div{
+    /* margin: 10px 0; */
+}
+
+}
+
+    @media (max-width: 980px) {
+     .welcomeIcon{
+         display: none;
+     }  
+.welcome-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 40vw;
+    align-items: center;
+
+}
+    }
+     @media (max-width: 480px) {
+   .welcome-margin-Top{
+       margin-top: 30px ;
+   }
+   .aboutme-content2-link {
+    display: flex;
+    justify-content: center;
+}
+
+
+    }
+ @media (max-width: 480px) {
+    .Dev-name{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.contact-me-icon2{
+    font-size: 18px;
+}
+
+    }
+   
+/*..... IMAGES ......*/
+
